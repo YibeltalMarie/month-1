@@ -1,4 +1,4 @@
-from weakref import finalize
+
 
 students_information={
     "student1":{
@@ -107,5 +107,5 @@ while final_choice == "no":
                     user_choice = input("is there any information you want to update ('yes' / 'no')")
 
 
-    final_choice = input("have finished your work , do want to leave ?(press 'no' to continue/else)")
+    final_choice = input("have finished your work , do want to leave ?(press 'no' to continue/else to leave)")
 
