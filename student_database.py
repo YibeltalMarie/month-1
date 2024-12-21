@@ -1,11 +1,10 @@
 students_information={
     "student1":{
     "fullname": "Yibeltal Marie",
-     # "lastname": "Marie",
-     "gender": "male",
-     "age": 21,
-     "studentID": "ETS11453/16",
-     "grade": 3.92,
+    "gender": "male",
+    "age": 21,
+    "studentID": "ETS11453/16",
+    "grade": 3.92,
     "phone":915258501,
     "email":"@gmail.com"},
 }
