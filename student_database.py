@@ -2,7 +2,7 @@ students_information={
     "student1":{
     "fullname": "Yibeltal Marie",
      # "lastname": "Marie",
-     "gender": "M",
+     "gender": "male",
      "age": 21,
      "studentID": "ETS11453/16",
      "grade": 3.92,
@@ -57,15 +57,15 @@ def search():
 
 
 def view():
+    print("_________________________________________________________________________________")
+    print(":Full Name     : Gender : Age : Student ID : Grade : Phone number : Email :")
     for key in students_information:
-        print("full name: ", students_information[key]["fullname"])
-        print("Gender: ", students_information[key]["gender"])
-        print("Age: ", students_information[key]["age"])
-        print("Student ID: ", students_information[key]["studentID"])
-        print("Grade: ", students_information[key]["grade"])
-        print(f"phone number: {students_information[key]["phone"]}")
-        print(f"email : {students_information[key]["email"]}")
 
+        print(f":{students_information[key]["fullname"]}: {students_information[key]["gender"]} ",
+              f"   :{students_information[key]["age"]}    :{students_information[key]["studentID"]}:",
+              f" {students_information[key]["grade"]}:   {students_information[key]["phone"]}",
+              f"   : {students_information[key]["email"]}")
+    print("----------------------------------------------------------------------------------")
 
 def delete():
     print("Welcome ...")
