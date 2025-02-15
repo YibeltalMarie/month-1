@@ -5,7 +5,7 @@ class Vehicle:
         self.make = make
         self.model = model
 
-class Car():
+class Car(vehicle):
     def __init__(self,numbers_of_doors,make,model):
         self.__numbers_of_doors = numbers_of_doors
 
